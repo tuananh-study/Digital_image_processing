@@ -29,6 +29,11 @@ README.md
 - Toán tử Laplacian
 - Phát hiện biên Canny
 - So sánh kết quả giữa các phương pháp
+- chọn đối tượng trong bức ảnh
+- Thay đổi kích thước ảnh (zoom)
+- xoay ảnh bằng hàm rotate(image, góc xoay)
+- Loại bỏ những pixel nhiễu bằng Dilation, Erosion
+- để ánh xạ vị trí mới cho ảnh đầu vào dùng hàm map_coordinate
 
 ## Hướng dẫn sử dụng
 
