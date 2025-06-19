@@ -24,11 +24,11 @@ README.md
 
 ## Các chức năng chính
 
-- Phát hiện biên bằng toán tử Sobel
-- Phát hiện biên bằng Prewitt
-- Toán tử Laplacian
-- Phát hiện biên Canny
-- So sánh kết quả giữa các phương pháp
+- Phát hiện biên bằng toán tử Sobel: dunfg để phát hiện biên theo hướng ngang và dọc.
+- Phát hiện biên bằng Prewitt: Tương tự sobel nhưng đơn giản hơn, hiệu quả kém hơn trong môi trường nhiễu nặng.
+- Toán tử Laplacian: Phát hiện cácc điểm thay đổi biên độ mạnh, gồm cả chiều ngang và dọc.
+- Phát hiện biên Canny: phương pháp phát hiện biên hiện đại, chính xác và phổ biến nhất.
+
 - chọn đối tượng trong bức ảnh
 - Thay đổi kích thước ảnh (zoom)
 - xoay ảnh bằng hàm rotate(image, góc xoay)
