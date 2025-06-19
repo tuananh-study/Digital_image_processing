@@ -2,7 +2,9 @@
 
 ## Giới thiệu
 
-Notebook này là phần tiếp theo trong bài học xử lý ảnh số, tập trung vào các kỹ thuật nâng cao như:
+- Làm quen với các thao tác cơ bản trong sử lý ảnh bằng python
+- sử dungj thư viện OpenCV để đọc và hiển thị ảnh
+- làm quen với 'matplotlib' để trực quan hoá dữ liệu ảnh và vẽ vector field(trường vector).
 
 ## Cấu trúc dự án
 
@@ -20,9 +22,18 @@ README.md
 - Matplotlib
 - Jupyter Notebook
 
+## Thư viện sử dụng
+
+- import cv2
+- import numpy as np
+- import matplotlib.pylot as plt
+
 ## Các chức năng chính
 
--
+- Tịnh tiến ảnh (translation)
+- Xoay ảnh (rotation)
+- phóng to / thu nhỏ
+- Vẽ trường vector(vector filed)
 
 ## Hướng dẫn sử dụng
 
