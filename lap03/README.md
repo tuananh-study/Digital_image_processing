@@ -12,6 +12,9 @@ Notebook này thuộc Lab 03 trong chuỗi bài học xử lý ảnh số, tập
 Lab3_207ct09941.ipynb
 README.md
 .gitignore
+
+Bai_Tap_Tang_Cuong.ipynb
+file image "exercise"
 ```
 
 ## Công nghệ sử dụng
@@ -34,6 +37,22 @@ README.md
 - xoay ảnh bằng hàm rotate(image, góc xoay)
 - Loại bỏ những pixel nhiễu bằng Dilation, Erosion
 - để ánh xạ vị trí mới cho ảnh đầu vào dùng hàm map_coordinate
+
+## Note Bài tập tăng cường
+
+## Bai Tap 01:
+
+- Tịnh tiến ảnh dùng scipy.ndimage.shift() để di chuyển ảnh theo tọa độ (dy, dx):
+  Trục Y (dọc) là dòng (row) → di chuyển theo dy
+  Trục X (ngang) là cột (column) → di chuyển theo dx
+
+- Tạo hiệu ứng sóng bằng biến đổi tọa độ (coordinate transformation):
+  Dùng numpy.meshgrid() để tạo lưới tọa độ gốc.
+  Dùng np.sin() để tạo lệch sóng tuần hoàn.
+  Dùng scipy.ndimage.map_coordinates() để lấy mẫu lại ảnh theo tọa độ mới.
+
+- Nội suy bậc 1 (bilinear interpolation):
+  Khi biến đổi tọa độ, dùng order=1 để đảm bảo ảnh mượt mà, tránh răng cưa.
 
 ## Hướng dẫn sử dụng
 
